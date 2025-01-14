@@ -42,7 +42,7 @@ Follow the steps below to set up and run the backend part of the application.
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/chrstncleofas/EmployeeCrudApp.git
 cd employee-management/backend
 ```
 
@@ -57,7 +57,7 @@ You need to set up a `.env` file in the backend folder to store your MongoDB URI
 
 Create a `.env` file:
 ```bash
-MONGODB_URI=mongodb://localhost:27017/employee-management
+MONGODB_URI=mongodb+srv://tian1227:tian1227@employeedb.tjbso.mongodb.net/?retryWrites=true&w=majority&appName=employeedb
 PORT=5000
 ```
 
@@ -123,5 +123,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### Note
-This project is created and maintained by **Roy Philippe R. Talao** as part of an employee management solution to simplify HR tasks, which includes managing employee records with CRUD operations.
